@@ -1,0 +1,9 @@
+<h2>Blog</h2>
+
+<div ng-controller="BlogCtrl">
+    <div class="one-col" ng-repeat="article in blog">
+        <h3>{{article.title}}</h3>
+        <img width="100%" ng-src="{{article.featuredImage}}"/>
+        <p>{{article.text}}</p>
+    </div>
+</div>

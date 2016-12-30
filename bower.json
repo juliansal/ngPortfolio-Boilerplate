@@ -1,0 +1,18 @@
+{
+  "name": "portfolio-jas",
+  "description": "Simple portfolio in Angular for practicing Jasmine",
+  "main": "server.js",
+  "authors": [
+    "Julio <juliansal.slc@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "private": true,
+  "dependencies": {
+    "angular": "~1.5.9",
+    "angular-route": "~1.5.9",
+    "angular-loader": "~1.5.9",
+    "angular-mocks": "~1.5.9",
+    "normalize-css": "^5.0.0"
+  }
+}

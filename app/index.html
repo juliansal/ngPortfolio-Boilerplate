@@ -1,0 +1,34 @@
+<!doctype html>
+<html ng-app="App">
+<head>
+    <title ng-bind="title">Title Page</title>
+    <link href="bower_components/normalize-css/normalize.css" rel="stylesheet" type="text/css">
+    <link href="app.css" rel="stylesheet" type="text/css">
+
+    <script src="bower_components/angular/angular.js"></script>
+    <script src="bower_components/angular-route/angular-route.js"></script>
+    <script src="app.js"></script>
+    <script src="views/about/about.js"></script>
+    <script src="views/about/aboutService.js"></script>
+    <script src="views/portfolio/portfolio.js"></script>
+    <script src="views/portfolio/portfolioService.js"></script>
+    <script src="views/blog/blog.js"></script>
+    <script src="views/blog/blogService.js"></script>
+</head>
+<body>
+    <div id="nav">
+        <ul class="nav-menu">
+            <li><a href="#/">Home</a></li>
+            <li><a href="#/about">About</a></li>
+            <li><a href="#/contact">Contact</a></li>
+            <li><a href="#/portfolio">Portfolio</a></li>
+            <li><a href="#/blog">Blog</a></li>
+        </ul>
+    </div>
+
+    <div class="container">
+        <h1>My Angular Boilerplate</h1>
+        <div ng-view></div>
+    </div>
+</body>
+</html>
