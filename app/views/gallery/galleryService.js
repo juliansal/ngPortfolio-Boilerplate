@@ -1,9 +1,9 @@
 var app = angular.module('App');
 
-var portfolioService = function($http) {
+var galleryService = function($http) {
     return {
         getData: function() {
-            return $http.get('views/portfolio/portfolio.json')
+            return $http.get('views/gallery/gallery.json')
                 .then(function(res) {
                     console.log(res.data);
                     return res.data;
@@ -15,4 +15,4 @@ var portfolioService = function($http) {
     };
 };
 
-app.service('portfolioService', portfolioService);
+app.service('galleryService', galleryService);

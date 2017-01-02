@@ -14,9 +14,9 @@ app.config(function($routeProvider) {
         templateUrl: 'views/contact/contact.html',
         title: 'Contact'
     })
-    .when('/portfolio', {
-        templateUrl: 'views/portfolio/portfolio.html',
-        title: 'Portfolio'
+    .when('/gallery', {
+        templateUrl: 'views/gallery/gallery.html',
+        title: 'Gallery'
     })
     .when('/blog', {
         templateUrl: 'views/blog/blog.html',
